@@ -1,0 +1,41 @@
+
+#myModal {
+  /* width: 400px; */
+  /* height: 50px; */
+  text-align: center;
+  /* padding: 15px; */
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#myModal:target {
+  display: block;
+  background: rgba(102, 102, 102, 0.5);
+}
+
+.close {
+  display: inline-block;
+  padding: 12px;
+  margin: 10px;
+  text-decoration: none;
+  background: #f2f2f2;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.close:hover {
+  background: #e6e6ff;
+}
+
+.diploma {
+  width: 800px;
+}
+
+.show-dip {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+}
